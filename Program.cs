@@ -20,7 +20,7 @@ namespace SwappingArrayElements
 
              }
             //Logic - Start
-            //If the lenght is Even
+            //If the length is Even
             if (a1.Length % 2 == 0)
                 {
                     for (int i = 0; i < a1.Length; i += 2)
@@ -33,7 +33,7 @@ namespace SwappingArrayElements
                     }
 
                 }
-                //If the lenght is Odd.
+                //If the length is Odd.
                 else
                 {
                     for (int i = 0; i < a1.Length - 1; i += 2)
