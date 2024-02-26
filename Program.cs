@@ -19,8 +19,8 @@ namespace SwappingArrayElements
                 Console.WriteLine( a1[old]);
 
              }
-            Console.WriteLine("Values after swapping: \n");
-            //If the lenght is ODD
+            //Logic - Start
+            //If the lenght is Even
             if (a1.Length % 2 == 0)
                 {
                     for (int i = 0; i < a1.Length; i += 2)
@@ -33,7 +33,7 @@ namespace SwappingArrayElements
                     }
 
                 }
-                //If the lenght is even.
+                //If the lenght is Odd.
                 else
                 {
                     for (int i = 0; i < a1.Length - 1; i += 2)
@@ -44,8 +44,9 @@ namespace SwappingArrayElements
                         a1[i + 1] = temp1;
                     }
                 }
-
-
+                //Logic - End
+            
+                Console.WriteLine("Values after swapping: \n");
                 for (int j = 0; j < a1.Length; j++)
                 {
                     Console.WriteLine(a1[j]);
